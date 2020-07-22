@@ -94,9 +94,38 @@
 // Random num generator using random method 
 // console.log(Math.random(10));
 
-function randomNumGenerate(){
-    for ( var i=0 ; i<20; i++ ){
-        console.log(Math.floor(Math.random()*(10-5)+5));
-    }
-}
-randomNumGenerate()
+// function randomNumGenerate(){
+//     for ( var i=0 ; i<20; i++ ){
+//         console.log(Math.floor(Math.random()*(10-5)+5));
+//     }
+// }
+// randomNumGenerate()
+
+
+// function reverseString(str){
+//     var reverse = "";
+//     for (i=0; i<str.length; i++){
+//       var char = str[i];
+//       reverse = char + reverse ;
+//     }
+//     return reverse;
+//   }
+  
+//   var result = reverseString("Hello Alien vai brother.");
+//   console.log(result);
+//   console.log(reverseString('How are you?'));
+
+// swap two number 
+
+(function swap( numberOne , numberTwo ){
+  console.log("before swaping two number : First Number = "+ numberOne + ", Second Number = " + numberTwo);
+  var a = numberOne;
+  var b = numberTwo;
+  var temp ;
+  temp = a;
+  a = b;
+  b = temp;
+  console.log("After swaping two number : first number = "+ a + ", Second Number = " + b);
+  
+})(4,7);
+
